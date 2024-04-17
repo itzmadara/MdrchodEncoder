@@ -126,12 +126,12 @@ async def start(event, args, client):
             [Button.inline("Help", data="ihelp")],
             [
                 Button.url(
-                    "Source-Code (Original)",
-                    url="github.com/1Danish-00/compressorqueue",
+                    "ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ",
+                    url="https://t.me/AnimeStation2",
                 ),
-                Button.url("Developer (Original)", url="t.me/danish_00"),
+                Button.url("Ongoing Channel", url="https://t.me/Ongoing_Station"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Anime_Station_Bots")],
         ],
     )
 
@@ -179,12 +179,12 @@ async def beck(event):
             [Button.inline("Help", data="ihelp")],
             [
                 Button.url(
-                    "Source-Code (Original)",
-                    url="github.com/1Danish-00/compressorqueue",
+                    "Anime Channel",
+                    url="https://t.me/AnimeStation2",
                 ),
-                Button.url("Developer (Original)", url="t.me/danish_00"),
+                Button.url("Ongoing Channel ", url="https://t.me/Ongoing_Station"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Anime_Station_Bots")],
         ],
     )
 
