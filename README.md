@@ -1,3 +1,6 @@
+<a href="https://heroku.com/deploy?template=https://github.com/itzmadara/480p"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+
+
 # [ENC]
 
 [![pyLint](https://github.com/Nubuki-all/Tg-encoder/actions/workflows/pyLint.yml/badge.svg?branch=main)](https://github.com/Nubuki-all/Tg-encoder/actions/workflows/pyLint.yml)
