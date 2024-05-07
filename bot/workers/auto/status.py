@@ -45,7 +45,7 @@ async def queue_status_preview(start, msg, queue):
 
 async def encodestat():
     if not queue:
-        msg = "**Currently Resting…😑**"
+        msg = "**Resting…😑**"
         return msg
     single = True
     msg = str()
