@@ -7,7 +7,7 @@ from bot.fun.emojis import enmoji
 from bot.utils.bot_utils import code, decode
 from bot.utils.log_utils import logger
 
-def_enc_msg = "**Currently Encoding {}:**\n└`{}`\n\n**⏳This Might Take A While⏳**"
+def_enc_msg = "**Currently Lauda Behnchod {}:**\n└`{}`\n\n**⏳Wait Some Time Buddy 🌚⏳**"
 
 
 class Encoder:
@@ -44,8 +44,8 @@ class Encoder:
                 buttons=[
                     [Button.inline("ℹ️", data=f"pres{wah}")],
                     [
-                        Button.inline("Progress", data=f"stats0"),
-                        Button.inline("Server-info", data=f"stats1"),
+                        Button.inline("Status", data=f"stats0"),
+                        Button.inline("Server - load", data=f"stats1"),
                     ],
                     [Button.inline("Cancel", data=f"skip{wah}")],
                 ],
@@ -57,8 +57,8 @@ class Encoder:
                     f"**User:**\n└[{self.sender.first_name}](tg://user?id={user})\n\n**Currently Encoding:**\n└`{out}`\n\n**Source File:**\n└`{sau}`",
                     buttons=[
                         [Button.inline("ℹ️", data=f"pres{wah}")],
-                        [Button.inline("CHECK PROGRESS", data=f"stats2")],
-                        [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
+                        [Button.inline("Status", data=f"stats2")],
+                        [Button.inline("Cancel", data=f"skip{wah}")],
                     ],
                 )
 
